@@ -1,0 +1,30 @@
+{
+  "name": "hrnK4WUv2shEyN",
+  "description": "hrnK4WUv2shEyN",
+  "keywords": [
+    "VMess VLESS"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议VMess或VLESS，请填小写的vmess或vless",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/MoP9VAk2m/hrnK4WUv2shEyN",
+  "repository": "https://github.com/MoP9VAk2m/hrnK4WUv2shEyN",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
